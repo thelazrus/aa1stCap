@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cooper's Corner</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div>
+                <a href="playDate.html">Play Date</a>
+            </div>
+            <div>
+                <a href="usefuleSites.html">Useful Sites</a>
+            </div>
+            <div>
+                <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+        <fieldset class="form">
+            <legend>Play Date Request</legend>
+            <div>
+                <label for="dogsName">Dog's Name</label><br>
+                <input type="text" id="dogsName" name="dogs_name">
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email_address">
+            </div>
+            <div>
+                <label for="place">Place to Meet</label><br>
+                <select id="place" name="placeToMeet">
+                    <option value="dogPark">Dog Park</option>
+                    <option value="lake">Lake</option>
+                    <option value="beach">Beach</option>
+                </select>
+            </div>
+            <div>
+                <label for="activities">Planned Activities</label><br>
+                <textarea id="activities" name="activities"></textarea>
+            </div>
+            <div>
+                <label for="shots">Shots are up to date</label>
+                <input type="checkbox" id="shots" name="shots">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </body>
+</html>
